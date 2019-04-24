@@ -1,0 +1,25 @@
+提交项目：
+1、复制仓库地址：https://github.com/jushitangguoshan/github_instructions.git
+https://github.com/jushitangguoshan/github_instructions.git
+		https://github.com/用户名/仓库名字.git
+2、在安装好github 的pc上 新建文件test，【进入test文件】,执行命令
+3、右键 点击 Git Bash Here 
+4、把github上面的仓库github_instructions克隆到本地
+	命令：git clone https://github.com/jushitangguoshan/github_instructions.git
+----此时test 文件夹多了一个仓库文件夹 github_instructions----
+5、进入github_instructions文件夹（也就是进入git的仓库文件夹）
+6、把需要提交的项目文件复制到 github_instructions (也就是把需要提交的文件复制到git的仓库下)
+7、
+   提交一个文件：
+	执行命令：git add "uptest.txt"
+   提交所有文件：
+	执行命令：git add --all
+   再执行：
+	git commit -m "提交备注"
+   再执行
+	git push -u origin master
+再输入用户账号跟密码则结束
+
+
+
+	
